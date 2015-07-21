@@ -1,0 +1,15 @@
+{
+  "name": "syntec-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Based on Spacegray for phpStorm & Sublime Text",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/syntec-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
