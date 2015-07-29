@@ -5,7 +5,8 @@
   "description": "Based on Spacegray for phpStorm & Sublime Text",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "spacegray"
   ],
   "repository": "https://github.com/rogatec/atom-syntec-syntax",
   "license": "MIT",
