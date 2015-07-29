@@ -1,4 +1,11 @@
-@import "colors";
+// custom syntax colors
+@syntax-color-orange: #E67E22;
+@syntax-color-light-orange: #F1C40F;
+@syntax-color-red: #E74C3C;
+@syntax-color-green: #2ECC71;
+@syntax-color-cyan: #8abeb7;
+@syntax-color-blue: #3498DB;
+@syntax-color-purple: #6C71C4;
 
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
@@ -25,7 +32,7 @@
 @syntax-gutter-background-color-selected: @gray;
 
 // For git diff info. i.e. in the gutter
-@syntax-color-renamed: @blue;
-@syntax-color-added: @green;
-@syntax-color-modified: @light-orange;
-@syntax-color-removed: @red;
+@syntax-color-renamed: @syntax-color-blue;
+@syntax-color-added: @syntax-color-green;
+@syntax-color-modified: @syntax-color-light-orange;
+@syntax-color-removed: @syntax-color-red;
