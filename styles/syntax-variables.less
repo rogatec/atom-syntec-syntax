@@ -1,43 +1,51 @@
 // custom syntax colors
-@very-light-gray: #c5c8c6;
-@light-gray: #969896;
-@gray: #373b41;
-@dark-gray: #282a2e;
-@very-dark-gray: #1d1f21;
-@syntax-color-orange: #E67E22;
-@syntax-color-light-orange: #F1C40F;
-@syntax-color-red: #E74C3C;
-@syntax-color-green: #2ECC71;
-@syntax-color-cyan: #8abeb7;
-@syntax-color-blue: #3498DB;
-@syntax-color-purple: #6C71C4;
+// language default colors
+@syntax-color-white: #FAFAFA;
+@syntax-color-gray: #9E9E9E;
+@syntax-color-blue: #0091EA;
+@syntax-color-red: #F44336;
+@syntax-color-yellow: #FFD600;
+@syntax-color-green: #00C853;
+@syntax-color-orange: #E65100;
+@syntax-color-purple: #8E24AA;
+@syntax-color-indigo: #5C6BC0;
+@syntax-color-cyan: #0097A7;
+@syntax-color-blue-gray: #607D8B;
+@syntax-color-light-gray: #BDBDBD;
+@syntax-color-light-green: #64DD17;
+@syntax-color-light-orange: #F57C00;
+@syntax-color-light-purple: #9575CD;
+@syntax-color-very-light-gray: #CFD8DC;
+@syntax-color-very-light-orange: #FF9800;
+@syntax-color-dark-gray: #424242;
+@syntax-color-very-dark-gray: #212121;
 
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
 
 // General colors
-@syntax-text-color: @very-light-gray;
-@syntax-cursor-color: white;
-@syntax-selection-color: lighten(@dark-gray, 10%);
-@syntax-background-color: @very-dark-gray;
+@syntax-text-color: @syntax-color-very-light-gray;
+@syntax-cursor-color: @syntax-color-white;
+@syntax-selection-color: lighten(@syntax-color-dark-gray, 10%);
+@syntax-background-color: @syntax-color-very-dark-gray;
 
 // Guide colors
-@syntax-wrap-guide-color: @dark-gray;
-@syntax-indent-guide-color: @gray;
-@syntax-invisible-character-color: @gray;
+@syntax-wrap-guide-color: @syntax-color-dark-gray;
+@syntax-indent-guide-color: @syntax-color-gray;
+@syntax-invisible-character-color: @syntax-color-gray;
 
 // For find and replace markers
-@syntax-result-marker-color: @light-gray;
-@syntax-result-marker-color-selected: white;
+@syntax-result-marker-color: @syntax-color-light-gray;
+@syntax-result-marker-color-selected: @syntax-color-white;
 
 // Gutter colors
-@syntax-gutter-text-color: @very-light-gray;
+@syntax-gutter-text-color: @syntax-color-very-light-gray;
 @syntax-gutter-text-color-selected: @syntax-gutter-text-color;
-@syntax-gutter-background-color: @dark-gray;
-@syntax-gutter-background-color-selected: @gray;
+@syntax-gutter-background-color: @syntax-color-very-dark-gray;
+@syntax-gutter-background-color-selected: @syntax-color-dark-gray;
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @syntax-color-blue;
 @syntax-color-added: @syntax-color-green;
-@syntax-color-modified: @syntax-color-light-orange;
+@syntax-color-modified: @syntax-color-yellow;
 @syntax-color-removed: @syntax-color-red;
