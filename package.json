@@ -1,7 +1,7 @@
 {
   "name": "syntec-syntax",
   "theme": "syntax",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Based on Spacegray for phpStorm & Sublime Text",
   "keywords": [
     "syntax",
